@@ -1,0 +1,31 @@
+\documentclass{beamer}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\mode<presentation>{
+	\definecolor{LogoRed}{RGB}{219,00,31}
+	\definecolor{LogoGray}{RGB}{86,86,80}
+	
+	\useoutertheme[width=2.1cm]{sidebar}
+	\useinnertheme{rounded}
+	\setbeamercolor{normal text}{fg=black,bg=white}
+	\setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
+	\setbeamercolor{title}{fg=LogoRed}
+	\setbeamercolor{frametitle}{fg=LogoRed}
+	\setbeamercolor{structure}{fg=LogoRed}
+	\setbeamercolor{section in sidebar}{fg=LogoRed}
+	\setbeamercolor{subsection in sidebar}{fg=LogoRed}
+	
+	\usefoottemplate{\vbox{\tinycolouredline{LogoGray!25}{\hspace{4pt}\hspace{15pt}\insertdate\hfill\insertshortinstitute\hfill \insertframenumber{}/\inserttotalframenumber}}}
+	
+	\setbeamertemplate{section in toc}{\inserttocsectionnumber.~\inserttocsection\par}
+	\setbeamertemplate{subsection in toc}{\hspace*{2em}\inserttocsectionnumber.\inserttocsubsectionnumber~\inserttocsubsection}
+	\AtBeginSubsection[] {
+		\begin{frame}<beamer>
+			\frametitle{Outline}
+			\tableofcontents[currentsection,sectionstyle=show/show,subsectionstyle=show/shaded/hide]
+		\end{frame}
+	}
+}
