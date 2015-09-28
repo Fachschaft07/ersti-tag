@@ -5,3 +5,4 @@
 \beamer@sectionintoc {3}{Auftaktveranstaltung}{8}{0}{3}
 \beamer@sectionintoc {4}{Hochschulgemeinde}{9}{0}{4}
 \beamer@sectionintoc {5}{Ansprechpartner}{12}{0}{5}
+\beamer@sectionintoc {6}{Studium}{19}{0}{6}
