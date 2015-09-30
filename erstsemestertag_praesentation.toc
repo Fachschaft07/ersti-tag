@@ -3,6 +3,8 @@
 \beamer@sectionintoc {1}{Begr\IeC {\"u}\IeC {\ss }ung}{2}{0}{1}
 \beamer@sectionintoc {2}{Dekanat der Fakult\IeC {\"a}t 07}{4}{0}{2}
 \beamer@sectionintoc {3}{Auftaktveranstaltung}{8}{0}{3}
-\beamer@sectionintoc {4}{Hochschulgemeinde}{9}{0}{4}
-\beamer@sectionintoc {5}{Ansprechpartner}{10}{0}{5}
-\beamer@sectionintoc {6}{Studium}{18}{0}{6}
+\beamer@sectionintoc {4}{Hochschulgemeinde}{10}{0}{4}
+\beamer@sectionintoc {5}{Ansprechpartner}{12}{0}{5}
+\beamer@sectionintoc {6}{Studium}{20}{0}{6}
+\beamer@sectionintoc {7}{Events}{46}{0}{7}
+\beamer@sectionintoc {8}{Abschluss}{47}{0}{8}
